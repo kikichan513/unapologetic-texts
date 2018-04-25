@@ -1,0 +1,31 @@
+@keyframes type-1 {
+  from {width: 0;}
+}
+@keyframes type-2 {
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{width: 100;}
+}
+@keyframes blink {
+  to{opacity: .0;}
+}
+body {
+  background: #000;
+  padding: 20px;
+  color: lime;
+  font: normal 1.5em/1em "Courier";
+}
+p {
+  white-space: nowrap;
+  width: 700px;
+  overflow: hidden;
+}
+.text-1 {
+  animation: type-1 4s steps(60, end);
+}
+.text-2 {
+  animation: type-2 8s steps(60, end);
+}
+span{
+  animation: blink 1s linear 20s infinite;
+}

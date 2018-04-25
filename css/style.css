@@ -1,0 +1,101 @@
+@keyframes type-1 {
+  from {
+    width: 0;
+  }
+}
+@keyframes type-2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes type-3 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+@keyframes type-4 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@keyframes type-5 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+body {
+  background: #000;
+  padding: 100px;
+  top: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+p {
+  white-space: nowrap;
+  width: 700px;
+  overflow: hidden;
+}
+.text-1 {
+  animation: type-1 4s steps(60, end);
+
+}
+.text-2 {
+  animation: type-2 6s steps(60, end);
+
+}
+
+.text-3 {
+  animation: type-3 12s steps(60, end);
+
+}
+.text-4 {
+  animation: type-4 15s steps(90, end);
+
+}
+.text-5 {
+  animation: type-3 17s steps(100, end);
+}
+
+a{
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+span {
+  animation: blink 1s linear 20s infinite;
+}
